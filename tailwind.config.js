@@ -9,6 +9,9 @@ module.exports = {
       fontSize: {
         'custom-20': '20px',
       },
+      fontFamily: {
+        'cinzel': ['"Cinzel Decorative"', 'serif']
+      },
     },
   },
   plugins: [],
