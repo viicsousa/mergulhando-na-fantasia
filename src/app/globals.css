@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,5 +19,10 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh; 
   position: relative;
+}
+
+.text-outline {
+  color: #003366; /* Cor do texto */
+  text-shadow: 1px 1px 0 black; /* Contorno em preto */
 }
 
