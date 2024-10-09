@@ -24,8 +24,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // biome-ignore lint/a11y/useValidLang: <explanation>
-<html lang="pt-br">
+    <html lang="pt-br">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
