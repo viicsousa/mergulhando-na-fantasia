@@ -2,6 +2,7 @@ import './globals.css'
 import NavBar from './components/navBar';
 import TitlePage from './components/titlePage';
 import CarouselBooks from './components/carouselBooks';
+import ReviewsBody from './components/reviwesBody';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <NavBar/>
       <TitlePage/>
       <CarouselBooks/>
+      <ReviewsBody/>
     </div>
   );
 }

@@ -11,11 +11,11 @@ import NextD from "../../assets/svg/nextD.svg";
 
 export default function CarouselBooks () {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const books = Array(7).fill(Books);
+  const books = Array(9).fill(Books);
   const maxVisibleBooks = 5; // Quantos livros mostrar de uma vez
 
   const handleNext = () => {
-    if (currentIndex < books.length -5) {
+    if (currentIndex < books.length -6) {
       setCurrentIndex(currentIndex + 1)
     }
   };
@@ -27,7 +27,7 @@ export default function CarouselBooks () {
   }
   return (
     <div className="flex justify-center items-center pt-10">
-    <div className="bg-white w-2/3 p-4 rounded-2xl ">
+    <div className="bg-white w-3/4 px-8 py-3 rounded-2xl ">
       <h2 className="text-2xl font-cinzel font-bold text-[#003366] p-4 py-4">
         Últimas leituras
       </h2>
@@ -41,7 +41,7 @@ export default function CarouselBooks () {
             }}
           >
             {books.map((book, index) => (
-              <div key={index} className="min-w-[20%] flex-shrink-0 flex flex-col items-center px-2">
+              <div key={index} className="min-w-[17%] flex-shrink-0 flex flex-col items-center p-2">
                 <a>
                   <Image className='cursor-pointer' src={book} alt={`Livro ${index + 1}`} />
                 </a>
