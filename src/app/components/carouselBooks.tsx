@@ -31,7 +31,7 @@ export default function CarouselBooks () {
       <h2 className="text-2xl font-cinzel font-bold text-[#003366] p-4 py-4">
         Últimas leituras
       </h2>
-      <div className="relative flex items-center">
+      <div className=" flex items-center">
         {/* Lista de livros */}
         <div className="overflow-hidden w-full">
           <div
@@ -56,7 +56,7 @@ export default function CarouselBooks () {
       </div>
       <div className="flex justify-center items-center gap-2 bottom-4 left-1/2">
   {/* Botão para livros anteriores */}
-  <div className="relative">
+  <div>
     <button
       onClick={handlePrev}
       disabled={currentIndex === 0}
@@ -67,7 +67,7 @@ export default function CarouselBooks () {
   </div>
 
   {/* Botão para próximos livros */}
-  <div className="relative">
+  <div >
     <button
       onClick={handleNext}
       disabled={currentIndex >= books.length - maxVisibleBooks}

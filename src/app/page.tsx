@@ -1,3 +1,4 @@
+"use client"
 import './globals.css'
 import NavBar from './components/navBar';
 import TitlePage from './components/titlePage';

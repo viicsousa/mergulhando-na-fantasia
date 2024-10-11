@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .bg-custom {
+    background-image: url('../assets/svg/book.svg'); /* Altere o caminho da imagem */
+    background-size: cover; /* ou 'contain' dependendo do efeito desejado */
+    background-position: center;
+  }
+}
+
 
 * {
   font-family: "Inter", sans-serif;
