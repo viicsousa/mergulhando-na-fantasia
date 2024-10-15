@@ -42,18 +42,13 @@ export default function ReviewsBody () {
   </div>
 </div>
 
-
-
-    {/* Coluna 2 */}
-    <div className="flex flex-col gap-4 px-4">
-  
-      {/* Sobre mim */}
+   <div className="flex flex-col gap-4 px-4">
       <div className="bg-white p-4 rounded-2xl">
         <h2 className="text-center text-2xl font-cinzel font-bold text-[#003366] py-4">Victória</h2>
         <p className="text-justify ">
           Criei este site para aprender mais sobre programação, voltado para algo que amo: livros.
           Aqui, vou compartilhar minhas leituras favoritas e algumas resenhas que escrevi ao longo dos
-          anos...
+          anos.
         </p>
         <div className="flex gap-4 justify-center items-center py-4">
           <Image src={Twitch} alt="" />
